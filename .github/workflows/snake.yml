@@ -1,18 +1,14 @@
 name: Generate Snake Animation
 
 on:
-  # Автоматически запускать каждый день в 00:00 UTC
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *
 
-  # Позволяет запускать вручную со вкладки Actions
   workflow_dispatch:
 
-  # Запускать при каждом пуше в основную ветку
   push:
     branches:
-      - main # Убедитесь, что здесь указано имя вашей основной ветки (может быть master)
-
+      - main 
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -21,7 +17,6 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Генерирует SVG файлы со змейкой
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -30,7 +25,6 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Пушит сгенерированные файлы в ветку 'output'
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
