@@ -23,7 +23,7 @@ C# / .NET · C++ / Qt · веб-приложения
 | **[Sudzekai.Hosting](https://github.com/sudzekai/hosting)** | Библиотека хостинга приложений для .NET: сервисы, конфигурация и управление жизненным циклом с поддержкой NativeAOT. |
 | **[ProjectTgBot](https://github.com/sudzekai/ProjectTgBot)** | Конструктор Telegram-бота на C#. |
 | **[HelpfulUtilites](https://github.com/sudzekai/HelpfulUtilites)** | Утилиты на C# для работы с текстом и файлами. |
-| **[react-games](https://github.com/sudzekai/react-games)** | Небольшие браузерные игры на React. |
+| **[LinCtrl Desktop](https://github.com/sudzekai-web-os/linctrl-desktop)** | Десктопный клиент на Qt/QML: подключение к серверам, сессии и расширение возможностей через плагины. |
 
 <details>
 <summary>Активность на GitHub</summary>
