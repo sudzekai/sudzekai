@@ -4,11 +4,7 @@
 
 **Никита Швец**
 
-C# / .NET · C++ / Qt · веб-приложения
-
-Разрабатываю приложения, библиотеки и инструменты для повседневных задач.
-
-[Проекты](#проекты) · [Релизы LocalVault](https://github.com/sudzekai/LocalVault/releases)
+C# .NET
 
 </div>
 
@@ -16,8 +12,6 @@ C# / .NET · C++ / Qt · веб-приложения
 
 ## Проекты
 
-| Проект | Что внутри |
-| :--- | :--- |
 | **[LocalVault](https://github.com/sudzekai/LocalVault)** | Локальный менеджер паролей для Windows и Linux. C++17, Qt Widgets, зашифрованное хранилище и резервные копии. |
 | **[fast-host](https://github.com/sudzekai/fast-host)** | Панель управления хостингом: сайты, SSL, файлы, метрики и деплой через GitHub Actions. |
 | **[Sudzekai.Hosting](https://github.com/sudzekai/hosting)** | Библиотека хостинга приложений для .NET: сервисы, конфигурация и управление жизненным циклом с поддержкой NativeAOT. |
